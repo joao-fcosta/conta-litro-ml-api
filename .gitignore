@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes Virtuais (Essencial ignorar)
+venv/
+env/
+.env/
+build/
+dist/
+
+# Jupyter Notebook e Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Modelos e arquivos pesados (Opcional)
+# Se o seu modelo .joblib for muito grande, considere ignorar e usar DVC ou baixar via script
+# modelo_combustivel.joblib
+
+# Arquivos de Dados
+# É boa prática não subir o CSV se ele for muito grande ou contiver dados sensíveis
+# data/*.csv
+
+# Configurações de IDE
+.vscode/
+.idea/
+
+# Logs e arquivos temporários
+*.log
+.DS_Store
